@@ -1,0 +1,114 @@
+
+
+body {
+	margin: 0;
+	padding: 0;
+
+}
+
+#container {
+	background-image: url("selectshipbg.png");
+	background-size: 100vw 55vw;
+	position: fixed;
+	width: 100vw;
+	height: 50vw;
+}
+
+#selectparallax {
+	height: 50vw;
+}
+
+#bulb {
+	position: absolute;
+	top: -4vw;
+	left: 42vw;
+	width: 20vw;
+	height: 20vw;
+}
+
+#arrowleft {
+	position: absolute;
+	top: 15vw;
+	left: 0;
+	width: 8vw;
+	height: 16vw;
+}
+
+#arrowleft:hover {
+	background-image: url(hover.png);
+	background-size: 10vw 15vw;
+}
+
+#arrowright {
+	position: absolute;
+	top: 15vw;
+	right: 0;
+	width: 8vw;
+	height: 16vw;
+}
+
+#arrowright:hover {
+	background-image: url(hover.png);
+	background-size: 10vw 15vw;
+}
+
+#ship {
+	position: absolute;
+	top: 6vw;
+	left: 40vw;
+	width: 25vw;
+	height: 34vw;
+}
+
+#selectbtn {
+	position: absolute;
+	top: 38vw;
+	left: 42vw;
+	width: 15vw;
+	height: 5vw;
+}
+
+
+.swing {
+  -webkit-animation: swing 4s infinite alternate cubic-bezier(0.455, 0.03, 0.515, 0.955);
+  -moz-animation: swing 4s infinite alternate cubic-bezier(0.455, 0.03, 0.515, 0.955);
+  animation: swing 4s infinite alternate cubic-bezier(0.455, 0.03, 0.515, 0.955); 
+  transform-origin: top;
+}
+
+@-webkit-keyframes swing {
+  0% {
+    -webkit-transform: rotateZ(10deg);
+    -moz-transform: rotateZ(10deg);
+    transform: rotateZ(10deg); }
+  100% {
+    -webkit-transform: rotateZ(-10deg);
+    -moz-transform: rotateZ(-10deg);
+    transform: rotateZ(-10deg); } }
+@-moz-keyframes swing {
+  0% {
+    -webkit-transform: rotateZ(10deg);
+    -moz-transform: rotateZ(10deg);
+    transform: rotateZ(10deg); }
+  100% {
+    -webkit-transform: rotateZ(-10deg);
+    -moz-transform: rotateZ(-10deg);
+    transform: rotateZ(-10deg); } }
+@-ms-keyframes swing {
+  0% {
+    -webkit-transform: rotateZ(10deg);
+    -moz-transform: rotateZ(10deg);
+    transform: rotateZ(10deg); }
+  100% {
+    -webkit-transform: rotateZ(-10deg);
+    -moz-transform: rotateZ(-10deg);
+    transform: rotateZ(-10deg); } }
+@keyframes swing {
+  0% {
+    -webkit-transform: rotateZ(10deg);
+    -moz-transform: rotateZ(10deg);
+    transform: rotateZ(10deg); }
+  100% {
+    -webkit-transform: rotateZ(-10deg);
+    -moz-transform: rotateZ(-10deg);
+    transform: rotateZ(-10deg); } }

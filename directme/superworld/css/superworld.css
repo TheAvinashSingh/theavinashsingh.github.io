@@ -1,0 +1,583 @@
+/* ****************************************** SUPER WORLD CSS FILE ********************************************* */
+
+body {
+    margin: 0 !important;
+    padding: 0 !important;
+    overflow: hidden;
+}
+
+.maincontainer {
+    background-image: url(../images/background.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 60vw;
+    overflow: hidden;
+}
+.supercontainer {
+    background-color: #009fd7;
+    z-index: -20;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+}
+a,
+li {
+    text-decoration: none;
+}
+
+h2 {
+    margin: 0;
+}
+
+
+/*
+*************************** ITEM BAR - STARTS *************************** 
+*/
+
+.itembar {
+    position: absolute;
+    top: 0.2vw;
+    left: 0;
+    right: 0;
+    width: 100vw;
+    height: 3vw;
+    z-index: 10;
+}
+
+
+/*ITEM BAR TEXT*/
+
+.itemval {
+    color: #545454;
+    font-weight: 100;
+    font-size: 1.2vw;
+    font-family: sans-serif;
+}
+
+.itemtext {
+    position: absolute;
+    left: 2.5vw;
+    top: 0.4vw;
+}
+
+.avatar {
+    position: absolute;
+    top: 0.1vw;
+    left: 1.7vw;
+}
+
+.avatarimg {
+    width: 3vw;
+    border-radius: 100%;
+}
+
+.xp {
+    position: absolute;
+    top: 0;
+    left: 20vw;
+    width: 8vw;
+    height:2vw;
+    background-color: rgba(255, 255, 255, 0.48);
+    border-radius: 25px;
+}
+
+.xpimg {
+    width: 1.5vw;
+    padding-top: 0.2vw;
+    padding-left: 0.3vw;
+}
+
+.coin {
+    position: absolute;
+    top: 0;
+    left: 30vw;
+    width: 8vw;
+    height: 2vw;
+    background-color: rgba(255, 255, 255, 0.48);
+    border-radius: 25px;
+}
+
+.coinimg {
+    width: 1.5vw;
+    padding-top: 0.2vw;
+    padding-left: 0.3vw;
+}
+
+.wood {
+    position: absolute;
+    top: 0;
+    left: 40vw;
+    width: 8vw;
+    height: 2vw;
+    background-color: rgba(255, 255, 255, 0.48);
+    border-radius: 25px;
+}
+
+.woodimg {
+    width: 1.5vw;
+    padding-top: 0.4vw;
+    padding-left: 0.5vw;
+}
+
+.bamboo {
+    position: absolute;
+    top: 0;
+    left: 50vw;
+    width: 8vw;
+    height: 2vw;
+    background-color: rgba(255, 255, 255, 0.48);
+    border-radius: 25px;
+}
+
+.bambooimg {
+    width: 1.5vw;
+    padding-top: 0.4vw;
+    padding-left: 0.6vw;
+}
+
+.banana {
+    position: absolute;
+    top: 0;
+    left: 60vw;
+    width: 8vw;
+    height: 2vw;
+    background-color: rgba(255, 255, 255, 0.48);
+    border-radius: 25px;
+}
+
+.bananaimg {
+    width: 1.5vw;
+    padding-top: 0.4vw;
+    padding-left: 0.6vw;
+}
+
+.coconut {
+    position: absolute;
+    top: 0;
+    left: 70vw;
+    width: 8vw;
+    height: 2vw;
+    background-color: rgba(255, 255, 255, 0.48);
+    border-radius: 25px;
+}
+
+.coconutimg {
+    width: 1.5vw;
+    padding-top: 0.3vw;
+    padding-left: 0.4vw;
+}
+
+.setting {
+    position: absolute;
+    top: 0;
+    right: 1vw;
+}
+
+.settingimg {
+    width: 3vw;
+    float: right;
+}
+
+.leaderboard {
+    position: absolute;
+    top: 4vw;
+    right: 1vw;
+}
+
+.leaderboardimg {
+    width: 3vw;
+    float: right;
+}
+
+.credits {
+    position: absolute;
+    top: 8vw;
+    right: 1vw;
+}
+
+.creditsimg {
+    width: 3vw;
+    float: right;
+}
+
+
+/*
+
+***************************** ITEM BAR - ENDS ****************************
+*/
+
+
+/* ******************************** SEA SPRITE ***************************** */
+
+@-webkit-keyframes wave {
+    0% {
+        -webkit-transform: rotateZ(0deg) translate3d(0, 10%, 0) rotateZ(0deg);
+        -moz-transform: rotateZ(0deg) translate3d(0, 10%, 0) rotateZ(0deg);
+        transform: rotateZ(0deg) translate3d(0, 10%, 0) rotateZ(0deg);
+    }
+    100% {
+        -webkit-transform: rotateZ(360deg) translate3d(0, 10%, 0) rotateZ(-360deg);
+        -moz-transform: rotateZ(360deg) translate3d(0, 10%, 0) rotateZ(-360deg);
+        transform: rotateZ(360deg) translate3d(0, 10%, 0) rotateZ(-360deg);
+    }
+}
+
+@-moz-keyframes wave {
+    0% {
+        -webkit-transform: rotateZ(0deg) translate3d(0, 10%, 0) rotateZ(0deg);
+        -moz-transform: rotateZ(0deg) translate3d(0, 10%, 0) rotateZ(0deg);
+        transform: rotateZ(0deg) translate3d(0, 10%, 0) rotateZ(0deg);
+    }
+    100% {
+        -webkit-transform: rotateZ(360deg) translate3d(0, 10%, 0) rotateZ(-360deg);
+        -moz-transform: rotateZ(360deg) translate3d(0, 10%, 0) rotateZ(-360deg);
+        transform: rotateZ(360deg) translate3d(0, 10%, 0) rotateZ(-360deg);
+    }
+}
+
+@-ms-keyframes wave {
+    0% {
+        -webkit-transform: rotateZ(0deg) translate3d(0, 10%, 0) rotateZ(0deg);
+        -moz-transform: rotateZ(0deg) translate3d(0, 10%, 0) rotateZ(0deg);
+        transform: rotateZ(0deg) translate3d(0, 10%, 0) rotateZ(0deg);
+    }
+    100% {
+        -webkit-transform: rotateZ(360deg) translate3d(0, 10%, 0) rotateZ(-360deg);
+        -moz-transform: rotateZ(360deg) translate3d(0, 10%, 0) rotateZ(-360deg);
+        transform: rotateZ(360deg) translate3d(0, 10%, 0) rotateZ(-360deg);
+    }
+}
+
+@keyframes wave {
+    0% {
+        -webkit-transform: rotateZ(0deg) translate3d(0, 10%, 0) rotateZ(0deg);
+        -moz-transform: rotateZ(0deg) translate3d(0, 10%, 0) rotateZ(0deg);
+        transform: rotateZ(0deg) translate3d(0, 10%, 0) rotateZ(0deg);
+    }
+    100% {
+        -webkit-transform: rotateZ(360deg) translate3d(0, 10%, 0) rotateZ(-360deg);
+        -moz-transform: rotateZ(360deg) translate3d(0, 10%, 0) rotateZ(-360deg);
+        transform: rotateZ(360deg) translate3d(0, 10%, 0) rotateZ(-360deg);
+    }
+}
+
+.seawave1 {
+    position: absolute;
+    left: -4vw;
+    z-index: -2;
+    top: 30vw;
+    animation: wave 5s linear infinite;
+    animation-delay: 1s;
+}
+
+.seawave2 {
+    position: absolute;
+    left: -4vw;
+    top: 33vw;
+    z-index: -1;
+    animation: wave 5.2s linear infinite;
+    animation-delay: 1.2s;
+}
+
+.seawave3 {
+    position: absolute;
+    left: -4vw;
+    top: 34vw;
+    animation: wave 5.1s linear infinite;
+    animation-delay: 1.5s;
+}
+
+.seawave4 {
+    position: absolute;
+    left: -4vw;
+    top: 36vw;
+    animation: wave 5s linear infinite;
+    animation-delay: 0.8s;
+}
+
+.seawave5 {
+    position: absolute;
+    left: -4vw;
+    top: 38vw;
+    animation: wave 5.9s linear infinite;
+    animation-delay: 1s;
+}
+
+.seawave6 {
+    position: absolute;
+    left: -4vw;
+    top: 40vw;
+    animation: wave 5.1s linear infinite;
+    animation-delay: 1.1s;
+}
+
+.seawave7 {
+    position: absolute;
+    left: -4vw;
+    top: 42vw;
+    animation: wave 5.7s linear infinite;
+    animation-delay: 0.5s;
+}
+
+.seawave8 {
+    position: absolute;
+    left: -4vw;
+    top: 44vw;
+    animation: wave 5.2s linear infinite;
+    animation-delay: 1.2s;
+}
+
+.seawave9 {
+    position: absolute;
+    left: -4vw;
+    top: 46vw;
+    animation: wave 5.3s linear infinite;
+    animation-delay: 0.8s;
+}
+
+.seawave10 {
+    position: absolute;
+    left: -4vw;
+    top: 48vw;
+    animation: wave 5.2s linear infinite;
+    animation-delay: 0.9s;
+}
+
+.seawave11 {
+    position: absolute;
+    left: -4vw;
+    top: 50vw;
+    animation: wave 5.3s linear infinite;
+    animation-delay: 1.3s;
+}
+
+.seawave12 {
+    position: absolute;
+    left: -4vw;
+    top: 52vw;
+    animation: wave 5s linear infinite;
+    animation-delay: 0.2s;
+}
+
+.seawave13 {
+    position: absolute;
+    left: -4vw;
+    top: 54vw;
+    animation: wave 4.9s linear infinite;
+    animation-delay: 0.4s;
+}
+
+.seawave14 {
+    position: absolute;
+    left: -4vw;
+    top: 56vw;
+    animation: wave 5.1s linear infinite;
+    animation-delay: 0.5s;
+}
+
+.seawave15 {
+    position: absolute;
+    left: -4vw;
+    top: 58vw;
+    animation: wave 5.3s linear infinite;
+    animation-delay: 1.1s;
+}
+
+.seawave16 {
+    position: absolute;
+    left: -4vw;
+    top: 60vw;
+    animation: wave 4.8s linear infinite;
+    animation-delay: 1s;
+}
+.seawaveimg {
+    width: 130vw;
+}
+
+#waterwaves {
+    height: 60vw;
+    margin: 0;
+    top: 5vw;
+}
+
+
+/*
+******************************* SUPER WORLD ELEMENTS **************************************
+*/
+
+.showroom {
+    position: absolute;
+    left: 7vw;
+    top: 16vw;
+    z-index: 10;
+}
+
+.showroomimg {
+    width: 22vw;
+}
+
+.plank {
+    position: absolute;
+    top: 33vw;
+    left: 57vw;
+    z-index: 20;
+}
+
+.plankimg {
+    width: 17vw;
+}
+
+.docknow {
+    position: absolute;
+    top: 32.5vw;
+    left: 61.5vw;
+    z-index: 21;
+}
+
+.docknowimg {
+    width: 9.5vw;
+    border-radius: 15px;
+}
+
+.mydockings {
+    position: absolute;
+    top: 41.5vw;
+    left: 60.5vw;
+    z-index: 22;
+}
+
+.mydockingsimg {
+    width: 12vw;
+    border-radius: 15px;
+}
+.myharbour {
+    position: absolute;
+    top: 25vw;
+    left: 85vw;
+    z-index: 1;
+}
+.myharbourimg {
+ width: 10vw;   
+}
+
+/*
+**************************************** CLOUD CSS *******************************************
+*/
+
+@keyframes cloud {
+    from {
+        left: -50vh;
+    }
+    to {
+        left: 100%;
+    }
+}
+
+@-webkit-keyframes cloud {
+    from {
+        left: -50vh;
+    }
+    to {
+        left: 100%;
+    }
+}
+
+@-ms-keyframes cloud {
+    from {
+        left: -50vh;
+    }
+    to {
+        left: 100%;
+    }
+}
+
+@-o-keyframes cloud {
+    from {
+        left: -50vh;
+    }
+    to {
+        left: 100%;
+    }
+}
+
+.cloud1img {
+    position: absolute;
+    z-index: 1;
+    opacity: 0.7;
+    top: 1vw;
+    left: 0vw;
+    width: 5vw;
+    animation: cloud 31s linear infinite;
+    animation-delay: 0s;
+    animation-direction: forwards;
+}
+
+.cloud2img {
+    position: absolute;
+    z-index: 2;
+    opacity: 0.8;
+    top: 5vw;
+    left: -30vw;
+    width: 7vw;
+    animation: cloud 35s linear infinite;
+    animation-delay: 2s;
+    animation-direction: forwards;
+}
+
+.cloud3img {
+    position: absolute;
+    z-index: 3;
+    opacity: 0.6;
+    left: -35vw;
+    top: 9vw;
+    width: 6vw;
+    animation: cloud 21s linear infinite;
+    animation-delay: 3s;
+    animation-direction: forwards;
+}
+
+.cloud4img {
+    position: absolute;
+    z-index: 4;
+    opacity: 0.7;
+    left: -25vw;
+    top: 7vw;
+    width: 7vw;
+    animation: cloud 27s linear infinite;
+    animation-delay: 5s;
+    animation-direction: forwards;
+}
+
+
+/*
+**************************************** CLOUD CSS ENDS *******************************************
+*/
+
+
+/*
+************* CLOTH SIGN ****************
+*/
+
+.clothsign {
+    position: absolute;
+    top:11vw;
+    z-index: 5;
+    left: 32vw;
+}
+
+.clothsignimg {
+    width: 35vw;
+}
+
+.notification {
+    position: absolute;
+    top: 1.5vw;
+    left: 9vw;
+}
+
+.logo {
+    width: 20vw;
+}
+
+

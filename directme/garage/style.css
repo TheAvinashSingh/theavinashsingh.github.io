@@ -1,0 +1,244 @@
+body {
+	margin: 0;
+	padding: 0;
+	height: 100%;
+	background-color: black;
+
+}
+
+
+@media screen and (min-width: 1367px) {
+
+
+#containershow {
+	background-size: 100vw 60vw;
+	height: 60vw;
+}
+
+#ship {
+	top: 9vw !important;
+	height: 34vw !important;
+}
+
+#upgradebtn {
+	top: 39vw !important;
+}
+
+}
+
+
+#containergarage {
+	background-image: url("garagebg.png");
+	background-size: 100vw 50vw;
+	background-repeat: no-repeat;
+	position: fixed;
+	width: 100vw;
+	height: 50vw;
+}
+
+#garageparallax {
+	height: 50vw;
+}
+
+#jaala {
+	position: absolute;
+	top: -13vw;
+	left: -15vw;
+	width: 80vw;
+	height: 35vw;
+}
+
+#spider {
+	position: absolute;
+	top: 5vw;
+	left: 56vw;
+	width: 5vw;
+	height: 12vw;
+}
+
+#banner {
+	position: absolute;
+	top: -5vw;
+	left: 40vw;
+	width: 22vw;
+	height: 17vw;
+}
+
+#bulb {
+	position: absolute;
+	top: -4vw;
+	left: 67vw;
+	width: 20vw;
+	height: 20vw;
+}
+
+#details {
+	position: absolute;
+	top: 5vw;
+	left: 5vw;
+	width: 35vw;
+	height: 30vw;
+	background-image: url(details.png);
+	background-size: 35vw 30vw;
+}
+
+#shipstuff {
+	position: absolute;
+	width: 25vw;
+	height: 20vw;
+	padding: 5vw;
+}
+
+#shipname {
+	font-family: 'Raleway', sans-serif;
+	text-align: center;
+	font-size: 2vw;
+}
+
+
+
+#arrowleft {
+	position: absolute;
+	top: 15vw;
+	left: 0;
+	width: 8vw;
+	height: 16vw;
+}
+
+#arrowleft:hover {
+	background-image: url(hover.png);
+	background-size: 10vw 15vw;
+}
+
+#arrowright {
+	position: absolute;
+	top: 15vw;
+	right: 0;
+	width: 8vw;
+	height: 16vw;
+}
+
+#arrowright:hover {
+	background-image: url(hover.png);
+	background-size: 10vw 15vw;
+}
+
+#ship {
+	position: absolute;
+	top: 5vw;
+	left: 63vw;
+	height: 38vw;
+}
+
+#upgradebtn {
+	position: absolute;
+	top: 35vw;
+	left: 15vw;
+	width: 15vw;
+	height: 5vw;
+}
+
+.spider {
+  -webkit-animation: slideDown 15s infinite alternate cubic-bezier(0.455, 0.03, 0.515, 0.955);
+  -moz-animation: slideDown 15s infinite alternate cubic-bezier(0.455, 0.03, 0.515, 0.955);
+  animation: slideDown 15s infinite alternate cubic-bezier(0.455, 0.03, 0.515, 0.955); 
+  transform-origin: top;
+}
+
+.swing {
+  -webkit-animation: swing 4s infinite alternate cubic-bezier(0.455, 0.03, 0.515, 0.955);
+  -moz-animation: swing 4s infinite alternate cubic-bezier(0.455, 0.03, 0.515, 0.955);
+  animation: swing 4s infinite alternate cubic-bezier(0.455, 0.03, 0.515, 0.955); 
+  transform-origin: top;
+}
+
+.flip {
+  -webkit-animation: flip 4s infinite alternate;
+  -moz-animation: flip 4s infinite alternate;
+  animation: flip 4s infinite alternate; 
+  transform-origin: top;
+}
+
+
+
+@-webkit-keyframes flip {
+  0% {
+    transform: rotateX(30deg);
+     }
+  100% {
+  transform: rotateX(0deg); } }
+
+
+@-webkit-keyframes swing {
+  0% {
+    -webkit-transform: rotateZ(10deg);
+    -moz-transform: rotateZ(10deg);
+    transform: rotateZ(10deg); }
+  100% {
+    -webkit-transform: rotateZ(-10deg);
+    -moz-transform: rotateZ(-10deg);
+    transform: rotateZ(-10deg); } }
+@-moz-keyframes swing {
+  0% {
+    -webkit-transform: rotateZ(10deg);
+    -moz-transform: rotateZ(10deg);
+    transform: rotateZ(10deg); }
+  100% {
+    -webkit-transform: rotateZ(-10deg);
+    -moz-transform: rotateZ(-10deg);
+    transform: rotateZ(-10deg); } }
+@-ms-keyframes swing {
+  0% {
+    -webkit-transform: rotateZ(10deg);
+    -moz-transform: rotateZ(10deg);
+    transform: rotateZ(10deg); }
+  100% {
+    -webkit-transform: rotateZ(-10deg);
+    -moz-transform: rotateZ(-10deg);
+    transform: rotateZ(-10deg); } }
+@keyframes swing {
+  0% {
+    -webkit-transform: rotateZ(10deg);
+    -moz-transform: rotateZ(10deg);
+    transform: rotateZ(10deg); }
+  100% {
+    -webkit-transform: rotateZ(-10deg);
+    -moz-transform: rotateZ(-10deg);
+    transform: rotateZ(-10deg); } }
+
+
+    @keyframes slideDown {
+    0% {
+        transform: translateY(0%)
+    }
+    50% {
+        transform: translateY(40%)
+    }
+    70% {
+        transform: translateY(40%)
+    }
+    95% {
+        transform: translateY(-10%)
+    }
+    100% {
+        transform: translateY(-10%)
+    }
+}
+
+@-webkit-keyframes slideDown {
+      0% {
+        -webkit-transform: translateY(0%)
+    }
+    50% {
+        -webkit-transform: translateY(40%)
+    }
+    80% {
+        -webkit-transform: translateY(40%)
+    }
+    95% {
+        -webkit-transform: translateY(-10%)
+    }
+    100% {
+        -webkit-transform: translateY(-10%)
+    }
+}

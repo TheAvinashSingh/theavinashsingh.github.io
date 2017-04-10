@@ -1,0 +1,275 @@
+.container 
+{
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+body
+{
+	background-image: url(../images/background.png);
+	background-size: cover;
+    background-repeat: no-repeat;
+    background-color: #c89e7d;
+	margin:0px;
+	overflow:hidden;
+}
+	/*
+**************************************** CLOUD CSS *******************************************
+*/
+
+@keyframes cloud {
+    from {
+        left: -50vh;
+    }
+    to {
+        left: 100%;
+    }
+}
+
+.cloud1img {
+    position: absolute;
+    z-index: -2;
+    opacity: 0.7;
+    top: 1vw;
+	left:-100px;
+    width: 5%;
+    animation: cloud 22s linear infinite;
+    animation-delay: 0s;
+    animation-direction: forwards;
+}
+
+.cloud2img {
+    position: absolute;
+    z-index: -4;
+    opacity: 0.8;
+    top: 3vw;
+    left: -250px;
+    width: 7%;
+    animation: cloud 25s linear infinite;
+    animation-delay: 5s;
+    animation-direction: forwards;
+}
+
+.cloud3img {
+    position: absolute;
+    z-index: -3;
+    opacity: 0.6;
+    left: -400px;
+    top: 6vw;
+    width: 6%;
+    animation: cloud 24s linear infinite;
+    animation-delay: 3s;
+    animation-direction: forwards;
+}
+
+/***************************************** CLOUD CSS ENDS ********************************************/
+
+/* ******************************** SEA SPRITE ***************************** */
+
+.seawave1 {
+    position: absolute;
+    left: 0;
+    top: 14vw;
+    z-index: -5;
+    animation: move1 4s linear infinite;
+}
+@keyframes move1 {
+    0% {top:14vw;}
+    25% {top: 13.5vw;}
+    50% {top: 14vw;}
+    75% {top: 13.5vw;}
+    100% {top: 14vw;}
+}
+
+
+.seawave2 {
+    position: absolute;
+    left: 0;
+    top: 18vw;
+	z-index: -4;
+    animation: move2 3s linear infinite;
+}
+@keyframes move2 {
+    0% {top:18vw;}
+    25% {top: 17.5vw;}
+    50% {top: 18vw;}
+    75% {top: 17.5vw;}
+    100% {top: 18vw;}
+}
+.seawave3 {
+    position: absolute;
+    left: 0;
+    z-index: -3;
+    top: 22vh;
+    animation: move3 2s linear infinite;
+}
+@keyframes move3 {
+	 0% {top:22vw;}
+    25% {top: 21.5vw;}
+    50% {top: 22vw;}
+    75% {top: 21.5vw;}
+    100% {top: 22vw;}
+}
+  
+.seawave4 {
+    position: absolute;
+    left: 0;
+    top: 26vw;
+	z-index: -2;
+    animation: move4 3s linear infinite;
+}
+@keyframes move4 {
+     0% {top:26vw;}
+    25% {top: 25.5vw;}
+    50% {top: 26vw;}
+    75% {top: 25.5vw;}
+    100% {top: 26vw;}
+}
+.seawave6 {
+    position: absolute;
+    left: 0;
+    top: 30vw;
+	z-index: -1;
+    animation: move6 4s linear infinite;
+}
+@keyframes move6 {
+     0% {top:30vw;}
+    25% {top: 29.5vw;}
+    50% {top: 30vw;}
+    75% {top: 29.5vw;}
+    100% {top: 30vw;}
+}
+.seawave5 {
+    position: absolute;
+    left: 0;
+    top: 34vw;
+	z-index: 0;
+    animation: move5 2s linear infinite;
+}
+@keyframes move5 {
+     0% {top:34vw;}
+    25% {top: 33.5vw;}
+    50% {top: 34vw;}
+    75% {top: 33.5vw;}
+    100% {top: 34vw;}
+}
+
+.seawaveimg {
+    width: 100vw;
+}
+/* ******************************** SEA SPRITE END ***************************** */
+
+
+.plank img
+{	
+	position:absolute;
+	top:23vw;
+	left:28vw;
+	width:40%;
+}
+
+
+/* ******************************** LOCATION OF SHIP ***************************** */	
+	.location1
+	{	position:absolute;
+		width: 8vw;
+		height: 14vw;
+		top: 20vw;
+		left: 22vw;
+		
+	}
+	.location2
+	{	position:absolute;
+		width: 7vw;
+		height: 12vw;
+		top: 14vw;
+		left: 33vw;
+		
+	}
+	.location3
+	{	position:absolute;
+		width: 6vw;
+		height: 10vw;
+		top: 10vw;
+		left: 46vw;
+		
+	}
+	.location4
+	{	position:absolute;
+		width: 7vw;
+		height: 12vw;
+		top: 14vw;
+		left: 59vw;
+
+		
+	}
+	.location5
+	{	position:absolute;
+		width: 8vw;
+		height: 14vw;
+		top: 20vw;
+		left: 70vw;
+	}
+/* ********************************  LOCATION OF SHIP END ***************************** */	
+/* ********************************  ELEMENT ON SHORE***************************** */	
+	.shore
+	{
+		position:absolute;
+		top:37vw;
+	}
+	.shore img
+	{
+		width:100%;
+		height:90%;
+	}
+	.starblue
+	{   position:absolute;
+		 top: 43vw;
+		left: 23vw;
+	}
+	.starblue img
+	{
+		width:4vw;
+		height:4vw;
+	}
+	.starpink
+	{   position:absolute;
+	    top: 39vw;
+		left: 29vw;
+		
+	}
+	.starpink img
+	{
+		width:5vw;
+		height:5vw;
+	}
+	.treeleft
+	{   position:absolute;
+		top: 1.75vw;
+	}
+	.treeleftimg
+	{
+		width:30vw;
+	}
+	.treeright
+	{   position:absolute;
+		top: 1vw;
+		right:0vw;
+	}
+	.treerightimg
+	{
+		width:30vw;
+	}
+/* ********************************  ELEMENT ON SHORE END***************************** */	
+	
+	.crab
+	{
+		position:absolute;
+	    top: 41vw;
+		left: 67vw;
+	}
+	.crab img
+	{
+		 width: 8vw;
+		height: 6vw;
+	}

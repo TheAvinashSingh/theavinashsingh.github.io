@@ -1,0 +1,207 @@
+body {
+	margin: 0;
+	padding: 0;
+	height: 100%;
+	background-color: black;
+
+}
+
+
+@media screen and (min-width: 1367px) {
+
+
+#containershow {
+	background-size: 100vw 60vw;
+	height: 60vw;
+}
+
+#ship {
+	top: 7vw !important;
+	height: 34vw !important;
+}
+
+#buybtn {
+	top: 42vw !important;
+}
+
+}
+
+#containershow {
+	background-image: url("showroombg.png");
+	background-size: 100vw 50vw;
+	background-repeat: no-repeat;
+	position: fixed;
+	width: 100vw;
+	height: 50vw;
+}
+
+#garageparallax {
+	height: 50vw;
+}
+
+#open {
+	position: absolute;
+	top: 5vw;
+	left: 40vw;
+	width: 12vw;
+	height: 12vw;
+}
+
+#showbanner {
+	position: absolute;
+	top: -2vw;
+	left: 36vw;
+	width: 25vw;
+	height: 12vw;
+}
+
+#lamp {
+	position: absolute;
+	top: -2vw;
+	left: 57vw;
+	width: 30vw;
+	height: 30vw;
+}
+
+#showdetails1 {
+	position: absolute;
+	top: 8vw;
+	left: 5vw;
+	width: 35vw;
+	height: 25vw;
+	background-image: url(showroomdetails1.png);
+	background-size: 35vw 25vw;
+}
+
+#shipstuff {
+	position: absolute;
+	width: 29vw;
+	height: 19vw;
+	padding: 3vw;
+}
+
+#shipname {
+	font-family: 'Raleway', sans-serif;
+	text-align: center;
+	font-size: 2vw;
+}
+
+
+#showdetails2 {
+	position: absolute;
+	top: 33vw;
+	left: 6.5vw;
+	width: 31vw;
+	height: 10vw;
+	background-image: url(showroomdetails2.png);
+	background-size: 31vw 10vw;
+}
+
+#showcontent2 {
+	position: absolute;
+	top: -5vw;
+	width: 40vw;
+	height: 20vw;
+	margin: 10vw;
+}
+
+#arrowleft {
+	position: absolute;
+	top: 15vw;
+	left: 0;
+	width: 8vw;
+	height: 16vw;
+}
+
+#arrowleft:hover {
+	background-image: url(hover.png);
+	background-size: 9vw 15vw;
+}
+
+#arrowright {
+	position: absolute;
+	top: 15vw;
+	right: 0;
+	width: 8vw;
+	height: 16vw;
+}
+
+#arrowright:hover {
+	background-image: url(hover.png);
+	background-size: 9vw 15vw;
+}
+
+#ship {
+	position: absolute;
+	top: 5vw;
+	left: 61vw;
+	height: 32vw;
+}
+
+#buybtn {
+	position: absolute;
+	top: 37vw;
+	left: 65vw;
+	width: 15vw;
+	height: 5vw;
+}
+
+.swing {
+  -webkit-animation: swing 4s infinite alternate cubic-bezier(0.455, 0.03, 0.515, 0.955);
+  -moz-animation: swing 4s infinite alternate cubic-bezier(0.455, 0.03, 0.515, 0.955);
+  animation: swing 4s infinite alternate cubic-bezier(0.455, 0.03, 0.515, 0.955); 
+  transform-origin: top;
+}
+
+
+.flip {
+  -webkit-animation: flip 4s infinite alternate;
+  -moz-animation: flip 4s infinite alternate;
+  animation: flip 4s infinite alternate; 
+  transform-origin: top;
+}
+
+
+
+@-webkit-keyframes flip {
+  0% {
+		transform: rotateX(30deg); }
+  100% {
+	transform: rotateX(0deg); } }
+
+@-webkit-keyframes swing {
+  0% {
+    -webkit-transform: rotateZ(10deg);
+    -moz-transform: rotateZ(10deg);
+    transform: rotateZ(10deg); }
+  100% {
+    -webkit-transform: rotateZ(-10deg);
+    -moz-transform: rotateZ(-10deg);
+    transform: rotateZ(-10deg); } }
+@-moz-keyframes swing {
+  0% {
+    -webkit-transform: rotateZ(10deg);
+    -moz-transform: rotateZ(10deg);
+    transform: rotateZ(10deg); }
+  100% {
+    -webkit-transform: rotateZ(-10deg);
+    -moz-transform: rotateZ(-10deg);
+    transform: rotateZ(-10deg); } }
+@-ms-keyframes swing {
+  0% {
+    -webkit-transform: rotateZ(10deg);
+    -moz-transform: rotateZ(10deg);
+    transform: rotateZ(10deg); }
+  100% {
+    -webkit-transform: rotateZ(-10deg);
+    -moz-transform: rotateZ(-10deg);
+    transform: rotateZ(-10deg); } }
+@keyframes swing {
+  0% {
+    -webkit-transform: rotateZ(10deg);
+    -moz-transform: rotateZ(10deg);
+    transform: rotateZ(10deg); }
+  100% {
+    -webkit-transform: rotateZ(-10deg);
+    -moz-transform: rotateZ(-10deg);
+    transform: rotateZ(-10deg); } }

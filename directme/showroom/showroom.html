@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Showroom</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+</head>
+<body>
+<div id="containershow">
+<ul id="garageparallax" data-scalar-x="5"	data-scalar-y="5">
+  <li class="layer" data-depth="0.20"><img src="openbanner.png" id="open"></li>
+	<li class="layer" data-depth="0.30"><img src="showbanner.png" id="showbanner" class="flip"></li>
+	<li class="layer" data-depth="0.30"><img src="lamp.png" class="swing" id="lamp"></li>
+	<li class="layer" data-depth="0.40"><div id="showdetails1">
+         <div id="shipstuff">
+        <h1 id="shipname">RANDOM RAFT</h1>
+        </div>
+    </div></li>
+    <li class="layer" data-depth="0.40"><div id="showdetails2">
+        <div id="showcontent2">SHIP STUFF HERE</div>
+    </div></li>
+	<img src="arrowleft.png" id="arrowleft">
+	<img src="arrowright.png" id="arrowright">
+	<img src="sampleship.png" id="ship">
+	<li class="layer" data-depth="0.50"><img src="buybtn.png" id="buybtn"></li>
+</ul>
+</div>
+
+    <script src="js/parallax.js"></script>
+    <script type="text/javascript">
+    	var scene = document.getElementById('garageparallax');
+		var parallax = new Parallax(scene);
+    </script>
+</body>
+</html>
