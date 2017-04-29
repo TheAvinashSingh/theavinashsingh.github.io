@@ -1,0 +1,114 @@
+.pace {
+    -webkit - pointer - events: none;
+    pointer - events: none;
+
+    -
+    webkit - user - select: none; -
+    moz - user - select: none;
+    user - select: none;
+
+    -
+    webkit - perspective: 12 rem; -
+    moz - perspective: 12 rem; -
+    ms - perspective: 12 rem; -
+    o - perspective: 12 rem;
+    perspective: 12 rem;
+
+    z - index: 2000;
+    position: fixed;
+    height: 6 rem;
+    width: 6 rem;
+    margin: auto;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.pace.pace - inactive.pace - progress {
+    display: none;
+}
+
+.pace.pace - progress {
+    position: fixed;
+    z - index: 2000;
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 6 rem;
+    width: 6 rem!important;
+    line - height: 6 rem;
+    font - size: 2 rem;
+    border - radius: 50 % ;
+    background: rgba(34, 153, 221, 0.8);
+    color: #fff;
+    font - family: "Helvetica Neue",
+    sans - serif;
+    font - weight: 100;
+    text - align: center;
+
+    -
+    webkit - animation: pace - theme - center - circle - spin linear infinite 2 s; -
+    moz - animation: pace - theme - center - circle - spin linear infinite 2 s; -
+    ms - animation: pace - theme - center - circle - spin linear infinite 2 s; -
+    o - animation: pace - theme - center - circle - spin linear infinite 2 s;
+    animation: pace - theme - center - circle - spin linear infinite 2 s;
+
+    -
+    webkit - transform - style: preserve - 3 d; -
+    moz - transform - style: preserve - 3 d; -
+    ms - transform - style: preserve - 3 d; -
+    o - transform - style: preserve - 3 d;
+    transform - style: preserve - 3 d;
+}
+
+.pace.pace - progress: after {
+    content: attr(data - progress - text);
+    display: block;
+}
+
+@ - webkit - keyframes pace - theme - center - circle - spin {
+    from {
+        -webkit - transform: rotateY(0 deg)
+    }
+    to {
+        -webkit - transform: rotateY(360 deg)
+    }
+}
+
+@ - moz - keyframes pace - theme - center - circle - spin {
+    from {
+        -moz - transform: rotateY(0 deg)
+    }
+    to {
+        -moz - transform: rotateY(360 deg)
+    }
+}
+
+@ - ms - keyframes pace - theme - center - circle - spin {
+    from {
+        -ms - transform: rotateY(0 deg)
+    }
+    to {
+        -ms - transform: rotateY(360 deg)
+    }
+}
+
+@ - o - keyframes pace - theme - center - circle - spin {
+    from {
+        -o - transform: rotateY(0 deg)
+    }
+    to {
+        -o - transform: rotateY(360 deg)
+    }
+}
+
+@keyframes pace - theme - center - circle - spin {
+    from {
+        transform: rotateY(0 deg)
+    }
+    to {
+        transform: rotateY(360 deg)
+    }
+}

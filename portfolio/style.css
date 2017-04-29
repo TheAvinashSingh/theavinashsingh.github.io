@@ -1,0 +1,124 @@
+body {
+    margin: 0 !important;
+    padding: 0 !important;
+    background-color: #101010;
+}
+
+.name {
+    font-size: 6vw;
+    line-height: 0.8;
+    text-transform: uppercase;
+    /*font-family: 'Paprika', cursive;*/
+    font-family: 'Overlock SC', cursive;
+/*    text-shadow: 0px 0px 10px #12a4aa;*/
+    letter-spacing: 15px;
+    color: #ffffff;
+    text-shadow: 0 0 2px #ffffff, 0 0 10px #ffffff, 0 0 20px #0ba9ca, 0 0 30px #0ba9ca, 0 0 40px #0ba9ca, 0 0 50px #0ba9ca;
+    -webkit-animation: blink 1.5s infinite alternate;
+    animation: blink 1.5s infinite alternate;
+
+
+}
+@keyframes blink {
+    100% {
+        text-shadow: 0 0 2px #ffffff, 0 0 10px #ffffff, 0 0 20px #ffffff, 0 0 40px #0ba9ca, 0 0 70px #0ba9ca, 0 0 80px #0ba9ca;
+    }
+}
+
+
+.mainheading {
+    font-size: 4vw;
+    line-height: 0;
+    color: #76d7eb;
+    text-transform: uppercase;
+    font-family: 'Overlock SC', cursive;
+    text-shadow: 0px 0px 10px #0ba9ca;
+}
+.top-section {
+    position: absolute;
+    width: 100vw;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+.construction {
+    position: absolute;
+    width: 100vw;
+    top: 75%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+.comingsoon {
+    color: #76d7eb;
+    line-height: 0;
+    font-size: 1.2vw;
+    font-family: 'Paprika', cursive;
+    text-shadow: 0px 0px 10px #0ba9ca;
+}
+
+
+footer {
+    position: absolute;
+    width: 100vw;
+    top: 90%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.social {
+    font-size: 0.6vw;
+    letter-spacing: 3vw;
+}
+
+.social > a {
+    color: #76d7eb;
+    text-decoration: none;
+}
+
+.social > a:hover {
+    text-shadow: 0px 0px 10px #0ba9ca;
+}
+
+@media only screen and (max-width :1024px){
+    .comingsoon {
+        font-size: 1.5vw;
+    }
+    
+    .social{
+        font-size: 0.8vw;
+    }
+}
+
+@media only screen and (max-width:690px){
+    .comingsoon {
+        font-size: 1.9vw;
+    }
+    
+    .social {
+        font-size: 1.1vw;
+    }
+
+}
+
+@media only screen and (max-width:550px){
+    .comingsoon {
+        font-size: 2.2vw;
+    }
+    
+    .social {
+        font-size: 1.4vw;
+    }
+}
+
+@media only screen and (max-width:450px){
+    .comingsoon {
+        font-size: 2.7vw;
+    }
+    
+    .social {
+        font-size: 1.6vw;
+    }
+}
