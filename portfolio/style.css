@@ -74,13 +74,46 @@ footer {
 }
 
 .social > a {
-    color: #76d7eb;
     text-decoration: none;
 }
-
-.social > a:hover {
-    text-shadow: 0px 0px 10px #0ba9ca;
+#facebook {
+    color: #3b5998;
 }
+#facebook:hover {
+	text-shadow: 0px 0px 7px #3b5998;
+}
+#instagram {
+    color: #fb3958;
+}
+#instagram:hover {
+	text-shadow: 0px 0px 7px #fb3958;
+}
+#twitter {
+    color: #1da1f2;
+}
+#twitter:hover {
+	text-shadow: 0px 0px 7px #0ba9ca;
+}
+
+#dribbble {
+    color: #ea4c89;
+}
+#dribbble:hover {
+    text-shadow: 0px 0px 7px #ea4c89;	
+}
+#behance {
+    color: #1769ff;
+}
+#behance:hover {
+    text-shadow: 0px 0px 7px #1769ff;
+}
+#linkedin {
+    color: #0077b5;
+}
+#linkedin:hover {
+	text-shadow: 0px 0px 7px #0077b5;	
+}
+
 
 @media only screen and (max-width :1024px){
     .comingsoon {
@@ -88,7 +121,7 @@ footer {
     }
     
     .social{
-        font-size: 0.8vw;
+        font-size: 1.3vw;
     }
 }
 
@@ -98,7 +131,7 @@ footer {
     }
     
     .social {
-        font-size: 1.1vw;
+        font-size: 1.3vw;
     }
 
 }
@@ -109,7 +142,7 @@ footer {
     }
     
     .social {
-        font-size: 1.4vw;
+        font-size: 1.6vw;
     }
 }
 
@@ -119,6 +152,6 @@ footer {
     }
     
     .social {
-        font-size: 1.6vw;
+        font-size: 1.7vw;
     }
 }
